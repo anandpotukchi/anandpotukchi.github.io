@@ -1,0 +1,149 @@
+
+ @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Roboto:300,400,500&display=swap');
+
+body {
+    background: #040404;
+    font-family: 'Lato', Roboto sans-serif;
+    margin-left: 5vw;
+    color: #FFF;
+}
+
+h1, h2, h3 {
+    margin-top: 20px !important;
+}   
+
+h1 {
+    font-size:  3.5em;
+}
+
+h2 {
+
+}
+
+h3 {
+    font-size: 2em;
+}
+
+a {
+    color: #6E6E6E;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+section {
+
+    margin-top: 15vw !important;
+    margin-left: 15vw;   
+    margin-right: 15vw;
+
+}
+
+footer {
+    margin-top: 10vw;
+    padding: 2.5em;
+    margin-left: 12.5vw !important;
+}
+
+.navbar {
+
+    margin: 5vh;
+}
+
+.nav-item {
+    width: 80px; 
+    font-family: 'Lato', Roboto sans-serif;  
+}
+
+.nav-link {
+    color: #6E6E6E !important;
+    font-size: 1em !important; 
+}
+
+.logo {
+
+    font-family: 'Lato', Roboto sans-serif;
+    font-size: 2.5em;
+
+}
+
+.logo-start {
+    color: #6E6E6E !important;
+
+}
+
+.logo-end {
+
+    color:  #3F3F3F;
+
+}
+
+.nav-link {
+    color: #FFF !important;
+    opacity: 0.8;
+    font-size: 1.375em;
+
+}
+
+
+.section-title {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;   
+    line-height: 1.25em;
+    letter-spacing: 2px;
+    width: 60%;
+}
+
+.subtitle {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.375em;
+    font-weight: 300; 
+    justify-content: center;
+    margin-bottom: 5em;
+
+
+}
+
+.button {
+
+    color: #FFF;
+    padding: 12.5px;
+    border: 0.5px solid #6E6E6E;
+    border-radius: 0;
+    width: 200px !important;
+}
+
+.button:hover {
+    color: #6E6E6E;
+}
+
+
+.content {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.5vw;
+    text-align: justify;
+    letter-spacing: 0.2;
+    line-height: 1.75em;
+    margin-top: 2em;
+}
+
+.text-secondary {
+    font-size: 0.9em !important;
+    color: #6E6E6E !important;
+    font-family: 'Lato', Roboto sans-serif !important;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .logo {
+        font-size: 1.5em;
+    }
+}
