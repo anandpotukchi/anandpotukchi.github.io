@@ -38,7 +38,7 @@ a:hover, a:active, a:visited {
 
 section {
 
-    margin-top: 15vw !important;
+    margin-top: 10vw !important;
     margin-left: 15vw;   
     margin-right: 15vw;
 
@@ -167,7 +167,7 @@ footer {
     }
 
     .logo {
-        font-size: 1.25em;
+        font-size: 1.155em;
     }
 
     .section-title {
