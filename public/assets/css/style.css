@@ -29,10 +29,11 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+a:hover, a:active, a:visited {
     color: #FFF;
     text-decoration: none;
 }
+
 
 
 section {
@@ -102,7 +103,7 @@ footer {
 .subtitle {
 
     font-family: 'Roboto', sans-serif;
-    font-size: 1.375em;
+    font-size: 1.4em;
     font-weight: 300; 
     justify-content: center;
     margin-bottom: 5em;
@@ -143,7 +144,55 @@ footer {
 
 @media only screen and (max-width: 600px) {
 
+    body {
+        margin-left: 2.5vw;
+
+    }
+
+    section {
+
+        margin-left: 5vw;
+
+    }
+
+    footer {
+        margin-top: 25vh !important;
+        padding: 0em;
+        margin-left: 0.5vw !important;
+        max-width: 200px;
+    }
+
+    .navbar {
+        margin: 2vw;
+    }
+
     .logo {
-        font-size: 1.5em;
+        font-size: 1.25em;
+    }
+
+    .section-title {
+       
+        width: 100%;
+        font-size: 2em;
+        line-height: 1.25em;
+        letter-spacing: 0.2px;
+    }
+    
+    .subtitle {
+
+        font-size: 1em;
+        line-height: 1.5em;
+
+    } 
+
+    .content {
+        font-size:7.5vw;
+    }
+    
+    .text-secondary {
+        font-size: 3.5vw;
+    }
+    .text-3 {
+        font-size: 7.5vw;
     }
 }
