@@ -25,8 +25,8 @@ h3 {
 }
 
 a {
-    color: #6E6E6E;
-    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
 }
 
 a:hover, a:active, a:visited {
@@ -136,6 +136,11 @@ footer {
     margin-top: 2em;
 }
 
+.icon {
+
+    font-size: 5vw;
+
+}
 .text-secondary {
     font-size: 0.9em !important;
     color: #6E6E6E !important;
@@ -194,5 +199,9 @@ footer {
     }
     .text-3 {
         font-size: 7.5vw;
+    }
+
+    .devicons {
+        font-size: 3.5em;
     }
 }
